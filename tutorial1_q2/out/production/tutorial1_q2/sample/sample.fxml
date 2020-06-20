@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Pane layoutX="14.0" layoutY="14.0" prefHeight="376.0" prefWidth="576.0">
+         <children>
+            <Button layoutX="66.0" layoutY="107.0" mnemonicParsing="false" onAction="#clickme" text="Click Me Next" />
+            <Label fx:id="lb1" layoutX="216.0" layoutY="50.0" prefHeight="251.0" prefWidth="302.0" textFill="#3022ae">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font></Label>
+            <Button layoutX="66.0" layoutY="53.0" mnemonicParsing="false" onAction="#start" text="Click Me First" />
+            <Button layoutX="66.0" layoutY="218.0" mnemonicParsing="false" onAction="#printback" prefHeight="27.0" prefWidth="91.0" text="Print Back" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

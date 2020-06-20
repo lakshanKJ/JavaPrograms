@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TabPane prefHeight="400.0" prefWidth="202.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab text="Tab1">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+            </content>
+          </Tab>
+          <Tab text="Tab2">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+            </content>
+          </Tab>
+        </tabs>
+      </TabPane>
+      <TabPane layoutX="200.0" prefHeight="261.0" prefWidth="189.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab text="Tab1">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+            </content>
+          </Tab>
+          <Tab text="Tab2">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+            </content>
+          </Tab>
+        </tabs>
+      </TabPane>
+      <TabPane layoutX="202.0" layoutY="261.0" prefHeight="140.0" prefWidth="396.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab text="Tab1" />
+          <Tab text="Tab2" />
+        </tabs>
+      </TabPane>
+      <TabPane layoutX="389.0" prefHeight="200.0" prefWidth="200.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab text="Tab1" />
+          <Tab text="Tab2" />
+        </tabs>
+      </TabPane>
+   </children>
+</AnchorPane>

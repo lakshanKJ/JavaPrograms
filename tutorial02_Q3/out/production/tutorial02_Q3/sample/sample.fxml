@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Pane layoutX="6.0" prefHeight="400.0" prefWidth="594.0">
+         <children>
+            <Label layoutX="53.0" layoutY="62.0" text="Enter number one" />
+            <Label layoutX="53.0" layoutY="124.0" text="Enter number two" />
+            <TextField fx:id="tf1" layoutX="217.0" layoutY="57.0" />
+            <TextField fx:id="tf2" layoutX="217.0" layoutY="119.0" />
+            <Button layoutX="217.0" layoutY="210.0" mnemonicParsing="false" onAction="#addition" text="Add" textFill="#2218da">
+               <font>
+                  <Font name="System Bold" size="21.0" />
+               </font>
+            </Button>
+            <Label fx:id="lb1" layoutX="96.0" layoutY="291.0" prefHeight="41.0" prefWidth="359.0" textAlignment="CENTER">
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
